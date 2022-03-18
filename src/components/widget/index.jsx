@@ -93,5 +93,5 @@ export const Widget = ({ type }) => {
 };
 
 Widget.propTypes = {
-  type: P.object.isRequired,
+  type: P.string.isRequired,
 };

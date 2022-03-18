@@ -1,6 +1,7 @@
 .app.dark{
   background-color: #333;
   color: rgb(156,156,156);
+  transition: 2s ;
 
   .chartGrid{
     stroke: rgba(228,228,228,0.219);
@@ -17,6 +18,8 @@
   .navbar{
     color: whitesmoke;
     border-color: #333;
+    transition: 2s ;
+
 
     .search{
       border-color: gray;
@@ -26,6 +29,8 @@
    .sidebar{
      background-color: #111;
      border-color: #333;
+     transition: 2s ;
+
 
      .top{
        .logo{
@@ -48,6 +53,7 @@
      }
    }
    .datatable{
+     transition: 2s;
      .datagrid{
        color: gray;
        border: none;
